@@ -4,6 +4,7 @@ import './Homepage.css'
 import Event from '../Events/Event.js'
 import Timeline from '../Timeline/Timeline.js'
 import Spline from "@splinetool/react-spline";
+import HomeGallery from './home-gallery/homeGallery.js'
 import Timer from '../Timer/Timer'
 
 
@@ -16,12 +17,14 @@ const Homepage = () => {
       <div>YHA KUCH IMAGES LAGA DENGE 3 SE 4 FROM TEAM MEMBERS</div>
       <Link to='/team'>
       <button>MORE</button>
+   
       </Link>
-      <div>YHA MORE BUTTON MAIN TEAM MEMBERS PAGE PE LE JAYGA</div>
-      <div>YHA FHIRSE KUCH IMAGES LAGA DENGE 3 SE 4 FOR GALLERY</div>
+      <div className='gallery-carousel'>
+      <HomeGallery/>
       <Link to='/gallery'>
-      <button>MORE</button>
+      <button className='gallery-btn'>MORE</button>
       </Link>
+      </div>
       <div>OR AGAR LAST MAI SPONSERS KE LIYE BOLENGE TO VO BHI KAR DENGE</div>
     </div>
   )
