@@ -3,7 +3,8 @@ import "./Card.css"
 export default function Card(props) {
   return (
     
-    <div className='card'>
+   <div className='card-section'>
+     <div className='card'>
         <img src={props.img} className='card-img' alt=""/>
         <div className='card-body'>
             <h1 className='card-title'>{props.title}</h1>
@@ -13,6 +14,7 @@ export default function Card(props) {
             <button className='card-btn'>Learn More</button>
         </div>
     </div>
+   </div>
    
   )
 }

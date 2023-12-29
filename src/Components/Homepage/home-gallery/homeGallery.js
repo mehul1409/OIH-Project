@@ -67,7 +67,7 @@ export default function HomeGallery() {
   return (
    
     <div className='gallery-body'>
-    <h1 className="gallery-title">GALLERY</h1>
+    <h1 className="gallery-title1">GALLERY</h1>
       <Slider {...settings}>
         {imgUrls.map((d) => (
           

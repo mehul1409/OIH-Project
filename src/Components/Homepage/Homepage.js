@@ -12,23 +12,17 @@ const Homepage = () => {
   return (
     <div className='home'>
 
-<Spline scene="https://prod.spline.design/8TF6sYqBVRN3uBba/scene.splinecode" />
+     <Spline scene="https://prod.spline.design/8TF6sYqBVRN3uBba/scene.splinecode" />
 
       <Timer />
       <Event />
       <Timeline />
-      <div>YHA KUCH IMAGES LAGA DENGE 3 SE 4 FROM TEAM MEMBERS</div>
-      <Link to='/team'>
-      <button>MORE</button>
-   
-      </Link>
       <div className='gallery-carousel'>
       <HomeGallery/>
       <Link to='/gallery'>
       <button className='gallery-btn'>MORE</button>
       </Link>
       </div>
-      <div>OR AGAR LAST MAI SPONSERS KE LIYE BOLENGE TO VO BHI KAR DENGE</div>
     </div>
   )
 }

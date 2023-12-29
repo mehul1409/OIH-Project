@@ -37,6 +37,7 @@ const Contact = () => {
       alert("An error occured");
     }
   }
+  
   return (
     <div class="contact-form">
       <h1 > Contact Us</h1>
