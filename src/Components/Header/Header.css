@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: black;
+}
 .hamburger {
     position: absolute;
     top: 10%;
@@ -24,9 +27,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #763ae2;
+    background-color:rgba(0, 0, 0, 0.1);
     padding: 0.5% 0;
-    box-shadow: 2px 1px 2px black;
+    box-shadow: 2px 1px 10px rgb(11, 11, 11);
 }
 
 .navBar .jscop {
@@ -58,6 +61,8 @@
     transform: scale(1.1);
     font-weight: 400; 
     text-decoration: none;
+    background-color: rgba(104, 102, 102,0.3);
+    border-radius: 10px;
 }
 
 
@@ -102,7 +107,7 @@
 
     .navbar-items {
         flex-direction: column;
-        background-color: #763ae2;
+        background-color:rgba(0, 0, 0, 0.9);
         width: 100%;
         padding: 20%;
         margin-top: -2500px;

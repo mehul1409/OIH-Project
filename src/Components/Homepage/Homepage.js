@@ -11,6 +11,9 @@ import Timer from '../Timer/Timer'
 const Homepage = () => {
   return (
     <div className='home'>
+
+<Spline scene="https://prod.spline.design/c4ax6hU2dzwVPrrw/scene.splinecode" />
+
       <Timer />
       <Event />
       <Timeline />
