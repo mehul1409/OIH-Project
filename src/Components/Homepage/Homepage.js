@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <div className='home'>
 
-     {/* <Spline scene="https://prod.spline.design/8TF6sYqBVRN3uBba/scene.splinecode" /> */}
+     <Spline scene="https://prod.spline.design/8TF6sYqBVRN3uBba/scene.splinecode" />
 
       <Timer />
       <Event />
