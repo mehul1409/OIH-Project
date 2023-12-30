@@ -111,7 +111,7 @@ height: 100vh;
   opacity: 100;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 600px){
   .previousPage
   {
     display: none;
@@ -119,14 +119,6 @@ height: 100vh;
   .galleryControl
   {
     display: none!important;
-  }
-  .gallery{
-  grid-template-columns: repeat(2,1fr);
-  }
-}
-@media screen and (max-width:500px){
-  .gallery{
-      grid-template-columns: repeat(1,1fr);
   }
 }
 

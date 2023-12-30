@@ -35,31 +35,31 @@ export default function HomeGallery() {
   const imgUrls=[
     {
       name:"1",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery1.jpg"
+      url:"/images/homegallery/gallery1.jpg"
     },
     {
       name:"2",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery5.jpeg"
+      url:"/images/homegallery/gallery2.jpg"
     },
     {
       name:"3",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery4.jpg"
+      url:"/images/homegallery/gallery3.jpg"
     },
     {
       name:"4",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery3.jpg"
+      url:"/images/homegallery/gallery4.jpg"
     },
     {
       name:"5",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery2.jpg"
+      url:"/images/homegallery/gallery5.jpeg"
     },
     {
       name:"6",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery6.jpeg"
+      url:"/images/homegallery/gallery6.jpeg"
     },
     {
       name:"7",
-      url:"https://jiitopticachapter.in/images/recent%20highlights/gallery7.jpeg"
+      url:"/images/homegallery/gallery7.jpeg"
     },
   ];
   

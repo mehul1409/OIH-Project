@@ -9,7 +9,7 @@
     background: black;
     text-align: center;
     padding-top: 20px;
-    background-image: url("https://media.istockphoto.com/id/1264986451/vector/abstract-white-wavy-lines-on-black-background.jpg?s=612x612&w=0&k=20&c=RKwd7OpspgjqkOPKyvRlseMAjjqXp0BFpiAQaZSHkqw=");
+    background-image: url('../../../public/images/istockphoto-1264986451-612x612.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1000px;
@@ -27,7 +27,7 @@
 
 }
 .timer-title{
-    font-size: 4rem;
+    font-size: 3rem;
   
 }
 
@@ -47,11 +47,24 @@
 section p:first-child, .timer div:last-child span{
     font-size: 4em;
 }
+@media screen and (max-width:720px){
+    .timer-title{
+        font-size: 3rem;
+        margin-top:2%;
+      
+    }
+}
+
 @media screen and (max-width:550px){
     .timer div:last-child{
         margin-left: 2em;
         margin-right: 2em;
         padding: 3em 1em;
 
+    }
+
+    .timer-title{
+        font-size: 2rem;
+      
     }
 }

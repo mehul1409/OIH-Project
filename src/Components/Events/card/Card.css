@@ -30,7 +30,6 @@
     backdrop-filter: blur(5px);
     border-radius: 15px;
     color:#fff;
-    /* padding:30px; */
     transition: 2s ease;
 }
 
@@ -74,18 +73,28 @@
 
 @media only screen and (max-width:1050px){
     .card-section .card{
-       width: 600px;
-        height:600px;
+       width: 800px;
+        height:500px;
         margin-bottom: 40px;
         margin-left: 0; 
         flex:1 1 0;
     }
    
 }
+
+
+@media only screen and (max-width:840px){
+    .card-section .card{
+       width: 600px;
+        height:400px;
+    }
+}
+
+
 @media only screen and (max-width:680px){
     .card-section .card{
-       width: 100%;
-        height:600px;
+       width:450px;
+        height:300px;
         margin-bottom: 40px;
         margin-left: 0; 
         flex:1 1 0;
@@ -94,5 +103,25 @@
     
     .card-section .card-info{
        display: none;
+    }
+}
+
+
+@media only screen and (max-width:680px){
+    .card-section .card{
+       width:380px;
+        height:220px;
+        min-width:100px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .card-section .card-title{
+        font-size: 35px;
+    }
+
+    .card-section .card-btn{
+        padding: 5px 10px;
+        margin-top:3%;
     }
 }

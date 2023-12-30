@@ -5,13 +5,14 @@ import Contact from './Components/Contact/Contact.js'
 import Gallery from './Components/Gallery/Gallery.js'
 import Errorpage from './Components/Errorpage/Errorpage.js'
 import Team from './Components/Team/Team.js'
-
+import Bloghome from './pages/Home/index.js'
 
 const Rout = () => {
   return (
     <>
       <Routes>
         <Route path='/' element={ <Homepage /> } />
+        <Route path='/bloghome' element={<Bloghome />} />
         <Route path='/team' element={ <Team /> } />
         <Route path='/contact' element={ <Contact/> } />
         <Route path='/gallery' element={ <Gallery/> } />

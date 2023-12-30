@@ -35,6 +35,9 @@ const Header = () => {
             <Link to='/team'>Team</Link>
             </a>
             <a onClick={closeMobileMenu}>
+            <Link to='/bloghome'>Blog</Link>
+            </a>
+            <a onClick={closeMobileMenu}>
             <Link to='/gallery'>Gallery</Link>
             </a>
             <a onClick={closeMobileMenu}>

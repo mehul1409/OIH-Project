@@ -20,42 +20,42 @@ const Timeline = () => {
 
   const scheduleday1 = [
     {
-      img: "https://www.cedars.hku.hk/image/cache/data/1692687236_Grand%20Hall%20Backdrop%203_1-1276x851.jpg",
+      img: "/images/Timeline/inaugration.jpg",
       event: "Inaugration ceremony",
       location: "LT-4",
       icon: GiInauguration,
       time: "10:00 AM - 10:30 AM",
     },
     {
-      img: "https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg",
+      img: "/images/Timeline/team.jpeg",
       event: "Talk 1",
       location: "LT-4",
       icon: GiInauguration,
       time: "10:30 AM - 11:30 AM",
     },
     {
-      img: "https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg",
+      img: "/images/Timeline/team.jpeg",
       event: "Talk 2",
       location: "LT-4",
       icon: GiInauguration,
       time: "11:30 AM - 12:30 PM",
     },
     {
-      img: "https://media-cdn.tripadvisor.com/media/photo-s/19/83/1d/51/delicious-veg-and-non.jpg",
+      img: "/images/Timeline/food.jpg",
       event: "LUNCH BREAK",
       location: "MESS",
       icon: GiInauguration,
       time: "12:30 PM - 02:00 PM",
     },
     {
-      img: "https://assets.entrepreneur.com/content/3x2/2000/1649279368-Ent-2022Python.jpeg",
+      img: "/images/Timeline/coding.jpeg",
       event: "Blind Coding",
       location: "cl-01",
       icon: GiInauguration,
       time: "2:00 PM - 3:30 PM",
     },
     {
-      img: "https://www.munatycooking.com/wp-content/uploads/2014/04/Indian-Tea-Karak-Chai-feature-image-2022-500x500.jpg",
+      img: "/images/Timeline/tea.webp",
       event: "TEA BREAK",
       location: "CAFETERIA",
       icon: GiInauguration,
