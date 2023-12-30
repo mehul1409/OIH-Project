@@ -23,7 +23,9 @@ const Header = () => {
             <div className="line"></div>
           </div>
           <div className="jscop" id="jscop">
-            JSCOP
+           <Link to='/' className="jscop">
+           JSCOP
+           </Link>
           </div>
           <div
             className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
