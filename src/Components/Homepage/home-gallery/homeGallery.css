@@ -29,6 +29,7 @@ justify-content: center;
 .gallery-card:hover{
 transform: scale(1.15);
 }
+
 .gallery-title{
   font-size: 70px;
   color: #fff;
